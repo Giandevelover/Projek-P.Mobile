@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/teal_200">
+    android:background="">
 
 
     <LinearLayout
@@ -48,13 +48,14 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="250dp"
+            android:layout_width="300dp"
             android:layout_height="40dp"
             android:textSize="20dp"
             android:layout_marginStart="40dp"
             android:text="Login sebagai pencari Kos"
             android:textColor="@color/black"
             android:textStyle="bold"
+            android:fontFamily="serif"
             android:layout_gravity="center"
             android:gravity="center">
 
@@ -70,24 +71,26 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:layout_margin="10dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:layout_margin="30dp"
-                android:gravity="center">
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="30dp">
 
-                <TextView
+                <ImageView
                     android:id="@+id/gambar"
-                    android:layout_width="match_parent"
+                    android:layout_width="160dp"
                     android:layout_height="80dp"
-                    android:background="@drawable/kostaja_logo"
-                    android:gravity="center"
-                    android:layout_marginBottom="30dp">
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginEnd="100dp"
+                    android:background="@drawable/kostaja_logo">
 
-                </TextView>
+                </ImageView>
 
                 <TextView
                     android:id="@+id/Email_head"
