@@ -20,6 +20,6 @@ public class SesiLogin extends AppCompatActivity {
         user1_sesi = findViewById(R.id.user1_sesi);
         user2_sesi = findViewById(R.id.user2_sesi);
         about_sesi = findViewById(R.id.about_sesi);
-        
+
     }
 }
