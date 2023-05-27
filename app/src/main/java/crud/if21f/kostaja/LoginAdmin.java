@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class LoginAdmin extends AppCompatActivity {
 
     private EditText Email_logus, Password_logus;
-    private TextView Daftar_logus, Forget_logus;
+    private TextView Daftar_logus, Forget_logus, panah_admin;
     private Button Btn_Login_logus;
 
 
@@ -25,6 +25,7 @@ public class LoginAdmin extends AppCompatActivity {
         Daftar_logus = findViewById(R.id.Daftar_admin);
         Forget_logus = findViewById(R.id.Forget_admin);
         Btn_Login_logus = findViewById(R.id.Btn_Login_admin);
+        panah_admin = findViewById(R.id.panah_admin);
 
     }
 }

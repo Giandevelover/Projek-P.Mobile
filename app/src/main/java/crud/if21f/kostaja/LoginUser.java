@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class LoginUser extends AppCompatActivity {
 
     private EditText Email_user, Password_user;
-    private TextView Daftar_user, Forget_user;
+    private TextView Daftar_user, Forget_user, panah_user;
     private Button Btn_Login_user;
 
     @SuppressLint("MissingInflatedId")
@@ -25,5 +25,6 @@ public class LoginUser extends AppCompatActivity {
         Daftar_user = findViewById(R.id.Daftar_user);
         Forget_user = findViewById(R.id.Forget_user);
         Btn_Login_user = findViewById(R.id.Btn_Login_user);
+        panah_user = findViewById(R.id.panah_user);
     }
 }
