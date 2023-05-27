@@ -43,7 +43,7 @@
         android:layout_below="@+id/header1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="40dp"
         android:orientation="horizontal">
 
         <TextView
@@ -150,7 +150,7 @@
                 </EditText>
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/Btnlog_user"
+                    android:id="@+id/Btn_Login_user"
                     android:layout_marginTop="25dp"
                     android:layout_below="@id/Password_user"
                     android:layout_width="match_parent"
